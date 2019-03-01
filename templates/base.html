@@ -11,6 +11,7 @@
 
 	<nav>
 		<ul>
+			{%%}
 			<li>
 				<form class="logout-link" action="{% url 'accounts:logout'%}" method="post">
 					{% csrf_token %}
